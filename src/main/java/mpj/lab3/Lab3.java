@@ -5,7 +5,7 @@ import mpi.MPI;
 
 import java.util.Arrays;
 
-public class App {
+public class Lab3 {
 
     public static final int MESSAGE_1 = 1;
     public static final int MESSAGE_2 = 2;
