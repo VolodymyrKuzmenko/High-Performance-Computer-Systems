@@ -1,10 +1,6 @@
-package lab4;
+package mpj.lab4;
 
 import mpi.MPI;
-import mpj.lab3.Lab3;
-
-import java.util.Arrays;
-
 
 public class Lab4 {
 
@@ -13,7 +9,7 @@ public class Lab4 {
         int P = Integer.parseInt(args[1]);
         MPI.Init(args);
         int rank = MPI.COMM_WORLD.Rank();
-        int  N = 8;;
+        int  N = 8;
         double[][] MA = new double[N][];
 
         double[][] L = new double[N][N];
